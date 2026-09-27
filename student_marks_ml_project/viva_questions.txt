@@ -1,0 +1,49 @@
+VIVA QUESTIONS AND SHORT ANSWERS
+
+1. What is Machine Learning?
+Machine Learning is a method where computers learn patterns from data to make predictions or decisions.
+
+2. What is Linear Regression?
+It is a supervised learning algorithm used to model the relationship between input and a continuous output.
+
+3. What is the input in this project?
+Study_Hours.
+
+4. What is the output?
+Predicted Marks.
+
+5. What is supervised learning?
+Learning from data where the expected output/target is known.
+
+6. Why is this project using Linear Regression?
+Because the example has one numeric input and one continuous numeric target.
+
+7. What is training data?
+The portion of data used to learn the model parameters.
+
+8. What is test data?
+Data kept separate to evaluate how the trained model performs on unseen examples.
+
+9. What is MAE?
+Mean Absolute Error: the average absolute difference between actual and predicted values.
+
+10. What is RMSE?
+Root Mean Squared Error: the square root of the average squared prediction error.
+
+11. What is R²?
+A metric indicating how much of the target variation is explained by the model, for this dataset and split.
+
+12. What does the graph show?
+The points show the dataset observations and the line shows the fitted regression relationship.
+
+13. What is overfitting?
+When a model learns training data too closely and performs poorly on new data.
+
+14. What is Pandas used for?
+Reading and manipulating tabular data.
+
+15. What is Scikit-learn used for?
+Building and evaluating machine-learning models.
+
+16. Can this model guarantee a student's marks?
+No. It is an educational demonstration using a tiny illustrative dataset.

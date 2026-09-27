@@ -1,0 +1,68 @@
+STUDENT MARKS PREDICTION USING MACHINE LEARNING
+
+1. TITLE
+Student Marks Prediction Using Linear Regression
+
+2. AIM
+To build a machine learning model that predicts a student's marks from the
+number of hours they study.
+
+3. INTRODUCTION
+Machine Learning allows computers to learn patterns from data and make
+predictions. In this project, Linear Regression is used to model the
+relationship between study hours and marks.
+
+4. OBJECTIVE
+- Create a small dataset of study hours and marks.
+- Train a Linear Regression model.
+- Evaluate the model using MAE, RMSE and R².
+- Predict marks for new study-hour input.
+- Visualize the relationship using a graph.
+
+5. TECHNOLOGIES USED
+Python, Pandas, NumPy, Matplotlib and Scikit-learn.
+
+6. DATASET
+The dataset contains two columns:
+Study_Hours: number of hours studied.
+Marks: marks obtained.
+
+7. ALGORITHM
+Linear Regression finds a best-fit relationship between an input variable
+(X) and an output variable (y). The model has the form:
+y = mX + c
+
+8. PROCEDURE
+1. Load the CSV dataset.
+2. Separate input and output columns.
+3. Split the data into training and testing sets.
+4. Train Linear Regression.
+5. Predict test values.
+6. Calculate evaluation metrics.
+7. Accept new study hours and predict marks.
+8. Display a scatter plot and regression line.
+
+9. SAMPLE RESULT
+The supplied dataset generally shows that marks increase as study hours increase.
+Because the dataset is small and illustrative, the result should not be treated
+as a real-world educational conclusion.
+
+10. MODEL EVALUATION
+On the included train/test split (random_state=42):
+MAE  = 0.73
+RMSE = 0.96
+R²   = 1.00
+
+11. CONCLUSION
+The project demonstrates the basic machine-learning workflow from dataset
+creation to training, evaluation, prediction and visualization. Linear
+Regression can capture the simple relationship represented by this dataset.
+
+12. LIMITATIONS
+The dataset is very small and uses only one input feature. Real student
+performance depends on many factors, so this model is only an educational
+demonstration.
+
+13. FUTURE SCOPE
+More realistic datasets could include attendance, previous marks, assignments,
+sleep, and other relevant variables, with appropriate privacy and consent.
